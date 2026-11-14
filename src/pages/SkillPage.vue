@@ -101,10 +101,6 @@ function onFileKey(event: KeyboardEvent) {
         </div>
       </div>
       <div class="ide-status">
-        <span class="st-ok">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
-          {{ currentFile.items.length }} skills loaded
-        </span>
         <span>Ln {{ activeLine }}, Col {{ activeCol }}</span>
         <span class="st-opt">Spaces: 2</span>
         <span class="st-opt">UTF-8</span>

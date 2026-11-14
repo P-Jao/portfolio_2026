@@ -1288,6 +1288,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: flex-end;
   gap: 0.15rem 1.25rem;
   min-height: 32px;
   padding: 0.25rem 1rem;

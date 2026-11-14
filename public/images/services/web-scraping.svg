@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="72" x2="728" y1="28" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#153A39"/>
+      <stop offset="1" stop-color="#0C171D"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="340" x2="465" y1="245" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FCF9E"/>
+      <stop offset="1" stop-color="#6FA3DC"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v500H0z"/>
+  <circle cx="400" cy="250" r="220" fill="#7FCF9E" opacity=".05"/>
+
+  <rect x="52" y="69" width="298" height="362" rx="16" fill="#111F25" stroke="#35544E" stroke-width="2"/>
+  <path fill="#1A2E31" d="M68 69h266a16 16 0 0 1 16 16v38H52V85a16 16 0 0 1 16-16Z"/>
+  <circle cx="78" cy="96" r="6" fill="#EE7D68"/>
+  <circle cx="98" cy="96" r="6" fill="#E8B45C"/>
+  <circle cx="118" cy="96" r="6" fill="#7FCF9E"/>
+  <rect x="142" y="89" width="185" height="14" rx="7" fill="#2B4645"/>
+  <text x="78" y="157" fill="#D6E4DC" font-family="monospace" font-size="16" font-weight="700">PRODUCT CATALOG</text>
+  <text x="78" y="181" fill="#8EA79F" font-family="monospace" font-size="11">SOURCE WEBSITE</text>
+
+  <rect x="76" y="198" width="250" height="59" rx="8" fill="#1B2C31" stroke="#7FCF9E" stroke-dasharray="5 4" stroke-width="2"/>
+  <rect x="87" y="208" width="40" height="39" rx="5" fill="#35605A"/>
+  <path d="m93 239 9-12 8 7 7-11 7 16" stroke="#A9D8AF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <text x="139" y="220" fill="#D6E4DC" font-family="monospace" font-size="11" font-weight="700">Wireless Headphones</text>
+  <text x="139" y="239" fill="#7FCF9E" font-family="monospace" font-size="12">$ 48.00</text>
+  <rect x="278" y="210" width="37" height="18" rx="9" fill="#28563F"/>
+  <text x="283" y="223" fill="#A9D8AF" font-family="monospace" font-size="8">IN STOCK</text>
+
+  <rect x="76" y="266" width="250" height="59" rx="8" fill="#1B2C31" stroke="#7FCF9E" stroke-dasharray="5 4" stroke-width="2"/>
+  <rect x="87" y="276" width="40" height="39" rx="5" fill="#354F62"/>
+  <path d="m94 305 8-11 8 7 7-12 8 16" stroke="#9CC8F0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <text x="139" y="288" fill="#D6E4DC" font-family="monospace" font-size="11" font-weight="700">Bluetooth Speaker</text>
+  <text x="139" y="307" fill="#7FCF9E" font-family="monospace" font-size="12">$ 32.50</text>
+  <rect x="278" y="278" width="37" height="18" rx="9" fill="#28563F"/>
+  <text x="283" y="291" fill="#A9D8AF" font-family="monospace" font-size="8">IN STOCK</text>
+
+  <rect x="76" y="334" width="250" height="59" rx="8" fill="#1B2C31"/>
+  <rect x="87" y="344" width="40" height="39" rx="5" fill="#484369"/>
+  <path d="m94 373 8-12 8 8 7-11 8 15" stroke="#C1B5ED" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="139" y="350" width="120" height="8" rx="4" fill="#8EA79F"/>
+  <rect x="139" y="367" width="81" height="7" rx="3.5" fill="#506C68"/>
+
+  <path d="M369 245h85m-18-18 18 18-18 18" stroke="url(#flow)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <circle cx="410" cy="218" r="5" fill="#7FCF9E"/>
+  <circle cx="428" cy="272" r="4" fill="#6FA3DC"/>
+  <text x="370" y="197" fill="#A9D8AF" font-family="monospace" font-size="10" font-weight="700">EXTRACT</text>
+
+  <rect x="467" y="69" width="281" height="362" rx="16" fill="#111F25" stroke="#35544E" stroke-width="2"/>
+  <path fill="#1A2E31" d="M483 69h249a16 16 0 0 1 16 16v38H467V85a16 16 0 0 1 16-16Z"/>
+  <circle cx="493" cy="96" r="6" fill="#EE7D68"/>
+  <circle cx="513" cy="96" r="6" fill="#E8B45C"/>
+  <circle cx="533" cy="96" r="6" fill="#7FCF9E"/>
+  <text x="492" y="157" fill="#D6E4DC" font-family="monospace" font-size="16" font-weight="700">STRUCTURED DATA</text>
+  <text x="492" y="181" fill="#8EA79F" font-family="monospace" font-size="11">CLEAN &amp; READY TO USE</text>
+
+  <rect x="490" y="198" width="235" height="32" rx="6" fill="#29413F"/>
+  <text x="502" y="219" fill="#A9D8AF" font-family="monospace" font-size="10" font-weight="700">PRODUCT</text>
+  <text x="625" y="219" fill="#A9D8AF" font-family="monospace" font-size="10" font-weight="700">PRICE</text>
+  <rect x="490" y="236" width="235" height="49" rx="6" fill="#1B2C31"/>
+  <text x="502" y="256" fill="#D6E4DC" font-family="monospace" font-size="10">Headphones</text>
+  <text x="502" y="273" fill="#8EA79F" font-family="monospace" font-size="9">In stock</text>
+  <text x="625" y="264" fill="#7FCF9E" font-family="monospace" font-size="11">$48.00</text>
+  <rect x="490" y="291" width="235" height="49" rx="6" fill="#1B2C31"/>
+  <text x="502" y="311" fill="#D6E4DC" font-family="monospace" font-size="10">Speaker</text>
+  <text x="502" y="328" fill="#8EA79F" font-family="monospace" font-size="9">In stock</text>
+  <text x="625" y="319" fill="#7FCF9E" font-family="monospace" font-size="11">$32.50</text>
+  <rect x="490" y="346" width="235" height="57" rx="8" fill="#193B35"/>
+  <path d="m506 369 7 7 13-15" stroke="#7FCF9E" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <text x="538" y="371" fill="#C5E7D1" font-family="monospace" font-size="11" font-weight="700">2 RECORDS EXTRACTED</text>
+  <text x="538" y="389" fill="#7B9C8D" font-family="monospace" font-size="9">Export as CSV or JSON</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="92" x2="712" y1="34" y2="466" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172B43"/>
+      <stop offset="1" stop-color="#0B1420"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="320" x2="635" y1="320" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#397FD2"/>
+      <stop offset="1" stop-color="#78C7D5"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v500H0z"/>
+  <circle cx="672" cy="104" r="118" fill="#397FD2" opacity=".1"/>
+  <rect x="73" y="67" width="654" height="366" rx="18" fill="#0E1926" stroke="#344A62" stroke-width="2"/>
+  <path fill="#172536" d="M91 67h618a18 18 0 0 1 18 18v42H73V85a18 18 0 0 1 18-18Z"/>
+  <circle cx="101" cy="98" r="6" fill="#EE7D68"/>
+  <circle cx="122" cy="98" r="6" fill="#E8B45C"/>
+  <circle cx="143" cy="98" r="6" fill="#7FCF9E"/>
+  <rect x="172" y="90" width="255" height="16" rx="8" fill="#26394D"/>
+  <rect x="97" y="153" width="139" height="252" rx="10" fill="#111E2C"/>
+  <rect x="117" y="177" width="83" height="11" rx="5.5" fill="#6FA3DC"/>
+  <rect x="117" y="211" width="91" height="8" rx="4" fill="#34465B"/>
+  <rect x="117" y="236" width="68" height="8" rx="4" fill="#34465B"/>
+  <rect x="117" y="261" width="82" height="8" rx="4" fill="#34465B"/>
+  <rect x="117" y="286" width="58" height="8" rx="4" fill="#34465B"/>
+  <rect x="117" y="334" width="99" height="43" rx="8" fill="#203B57"/>
+  <path d="M135 355h12l8-10 10 14 9-11 13 7" stroke="#78C7D5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect x="255" y="153" width="204" height="96" rx="10" fill="#152536" stroke="#293D52"/>
+  <text x="275" y="181" fill="#92A5BA" font-family="monospace" font-size="12">ACTIVE USERS</text>
+  <text x="275" y="220" fill="#E3ECF5" font-family="monospace" font-size="30" font-weight="700">24,891</text>
+  <path d="m391 216 12-10 11 4 14-17 13 2" stroke="#7FCF9E" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect x="478" y="153" width="227" height="96" rx="10" fill="#152536" stroke="#293D52"/>
+  <text x="498" y="181" fill="#92A5BA" font-family="monospace" font-size="12">UPTIME</text>
+  <text x="498" y="220" fill="#E3ECF5" font-family="monospace" font-size="30" font-weight="700">99.98%</text>
+  <circle cx="670" cy="211" r="10" fill="#7FCF9E" opacity=".9"/>
+  <rect x="255" y="265" width="450" height="140" rx="10" fill="#152536" stroke="#293D52"/>
+  <text x="275" y="292" fill="#92A5BA" font-family="monospace" font-size="12">GROWTH OVER TIME</text>
+  <path d="M279 366h402M279 339h402M279 312h402" stroke="#293D52" stroke-dasharray="4 7"/>
+  <path d="m286 368 57-23 45 9 56-46 56 13 54-39 49 12 67-42" stroke="url(#chart)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <circle cx="670" cy="252" r="23" fill="#1D3C5A" stroke="#6FA3DC" stroke-width="2"/>
+  <path d="M662 252h16m-8-8v16" stroke="#9CC8F0" stroke-linecap="round" stroke-width="2"/>
+</svg>

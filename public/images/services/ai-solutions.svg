@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="72" x2="728" y1="28" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202447"/>
+      <stop offset="1" stop-color="#111522"/>
+    </linearGradient>
+    <linearGradient id="process" x1="320" x2="480" y1="240" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A58BE0"/>
+      <stop offset="1" stop-color="#6FA3DC"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v500H0z"/>
+  <circle cx="401" cy="248" r="220" fill="#A58BE0" opacity=".06"/>
+
+  <rect x="48" y="111" width="220" height="326" rx="14" fill="#151D31" stroke="#35436A" stroke-width="2"/>
+  <path fill="#202742" d="M62 111h192a14 14 0 0 1 14 14v36H48v-36a14 14 0 0 1 14-14Z"/>
+  <text x="68" y="140" fill="#D6CCF6" font-family="monospace" font-size="12" font-weight="700">SOURCE DOCUMENTS</text>
+
+  <path d="M73 174h56l21 21v83H73z" fill="#282A52" stroke="#A58BE0" stroke-width="2"/>
+  <path d="M129 174v22h21" stroke="#A58BE0" stroke-width="2"/>
+  <text x="84" y="218" fill="#D6CCF6" font-family="monospace" font-size="11" font-weight="700">PDF</text>
+  <path d="M84 232h54m-54 9h43m-43 9h50" stroke="#8781B4" stroke-linecap="round" stroke-width="3"/>
+  <text x="78" y="295" fill="#E1E7F2" font-family="monospace" font-size="9">SCANNED REPORT</text>
+
+  <rect x="163" y="174" width="82" height="107" rx="5" fill="#263353" stroke="#6FA3DC" stroke-width="2"/>
+  <path d="M177 193h50m-50 10h41m-41 10h45m-45 10h34m-34 10h47m-47 10h38" stroke="#9CC8F0" stroke-linecap="round" stroke-width="3"/>
+  <path d="M177 252h17m5 0h10m5 0h20" stroke="#7FCF9E" stroke-linecap="round" stroke-width="4"/>
+  <text x="167" y="295" fill="#E1E7F2" font-family="monospace" font-size="9">IMAGE / SCAN</text>
+
+  <rect x="73" y="321" width="172" height="86" rx="8" fill="#202742"/>
+  <path d="M91 343h27v39H91z" fill="#3C594F"/>
+  <path d="M97 353h15m-15 7h15m-15 7h11" stroke="#B7E6C6" stroke-linecap="round" stroke-width="2"/>
+  <text x="127" y="354" fill="#E1E7F2" font-family="monospace" font-size="10">DOCX / XLSX</text>
+  <text x="127" y="373" fill="#8D9AB8" font-family="monospace" font-size="9">Forms, tables, files</text>
+  <text x="88" y="395" fill="#AEB8D4" font-family="monospace" font-size="8">PDF  ·  IMAGE  ·  OFFICE</text>
+
+  <path d="M276 267h40m-11-11 11 11-11 11" stroke="#A58BE0" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+
+  <rect x="322" y="172" width="156" height="191" rx="14" fill="#151D31" stroke="#48517A" stroke-width="2"/>
+  <text x="340" y="199" fill="#AEB8D4" font-family="monospace" font-size="10" font-weight="700">AI + OCR</text>
+  <circle cx="400" cy="258" r="42" fill="#282C50" stroke="url(#process)" stroke-width="3"/>
+  <path d="M379 242v32m42-32v32m-42-16h42m-31-16v32m20-32v32" stroke="#D6CCF6" stroke-linecap="round" stroke-width="2"/>
+  <path d="m391 228 9-9 9 9m-18 60 9 9 9-9" stroke="#7FCF9E" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <text x="345" y="323" fill="#E1E7F2" font-family="monospace" font-size="10">READ &amp; EXTRACT</text>
+  <rect x="340" y="337" width="120" height="16" rx="8" fill="#283852"/>
+  <rect x="340" y="337" width="82" height="16" rx="8" fill="#6FA3DC"/>
+  <circle cx="466" cy="345" r="4" fill="#7FCF9E"/>
+
+  <path d="M484 267h31m-11-11 11 11-11 11" stroke="#6FA3DC" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+
+  <rect x="521" y="111" width="231" height="326" rx="14" fill="#151D31" stroke="#35436A" stroke-width="2"/>
+  <path fill="#202742" d="M535 111h203a14 14 0 0 1 14 14v36H521v-36a14 14 0 0 1 14-14Z"/>
+  <text x="542" y="140" fill="#B7D7F3" font-family="monospace" font-size="12" font-weight="700">EXTRACTED TEXT</text>
+  <circle cx="724" cy="134" r="5" fill="#7FCF9E"/>
+
+  <rect x="540" y="176" width="193" height="151" rx="8" fill="#101A29" stroke="#34435A"/>
+  <text x="554" y="199" fill="#7FCF9E" font-family="monospace" font-size="9">DOCUMENT_TEXT</text>
+  <text x="554" y="223" fill="#DCE6F2" font-family="monospace" font-size="10">Quarterly Report</text>
+  <text x="554" y="241" fill="#B6C5D8" font-family="monospace" font-size="9">Revenue increased by</text>
+  <text x="554" y="256" fill="#B6C5D8" font-family="monospace" font-size="9">12% compared to the</text>
+  <text x="554" y="271" fill="#B6C5D8" font-family="monospace" font-size="9">previous quarter.</text>
+  <rect x="554" y="288" width="146" height="1" fill="#34435A"/>
+  <text x="554" y="309" fill="#A58BE0" font-family="monospace" font-size="8">PAGE 1  ·  248 WORDS</text>
+
+  <rect x="540" y="341" width="193" height="72" rx="8" fill="#193B35"/>
+  <path d="m555 362 7 7 13-15" stroke="#7FCF9E" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <text x="584" y="362" fill="#C5E7D1" font-family="monospace" font-size="10" font-weight="700">TEXT READY</text>
+  <text x="555" y="390" fill="#9DBDAA" font-family="monospace" font-size="9">Search · Analyze · Export</text>
+</svg>

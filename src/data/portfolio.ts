@@ -33,7 +33,7 @@ export const yearsOfExperience = (now: Date = new Date()): number => now.getFull
 
 export const profile = {
   name: 'Paul Jao',
-  role: 'Professional Full-Stack Developer',
+  role: 'Professional Full-Stack AI Engineer',
   bio: `${yearsOfExperience()}+ years of experience building web applications end to end, from database design to polished interfaces. I also build AI-powered features into production apps. I thrive on collaborative teams, turning complex requirements into reliable and maintainable products.`,
   email: 'paul.jao95@gmail.com',
   phone: '+63 945 750 5051',
@@ -170,7 +170,7 @@ export const jobs = [
     points: [
       'Developed a web based ticketing system using Laravel, Nuxt, Vuestic UI and MySQL stack for the internal process of the company and its clients. Through its analytics and turnaround time reports, the company will have the data to track response and resolution times, identify bottlenecks, and make informed decisions that improve service quality and client satisfaction.',
       'Collaborate closely with other developers in developing new modules for the web-based financial management system using Vue.js for the frontend and Laravel for the API. Built a module that scales to millions of records, designing database indexes around its main query patterns and testing them at volume so list, search, and report screens stay fast as the data grows.',
-      'Implemented a more secure JWT authentication flow with Laravel and Vue, replacing the existing non-expiring token with short-lived access tokens kept alive by refresh tokens. A stolen token is now only useful for a short window instead of indefinitely, while users stay signed in without interruption, which strengthened the security of the financial management system without hurting usability.',
+      'Implemented a more secure JWT authentication flow with Laravel and Vue, replacing the existing non-expiring token with short-lived access tokens kept alive by refresh tokens. A stolen token is now only useful for a short window instead of indefinitely, while users stay signed in without interruption, which strengthens the security of the financial management system without hurting usability.',
       "Customised phpBB to fit the company's internal process, replacing scattered email and chat announcements with a single searchable source of truth. Role-based forums and permissions made sure each department saw only the updates relevant to them, and threaded discussions kept questions and answers in one place. This cut repeated questions and sped up how quickly policy and process changes reached staff.",
     ],
   },

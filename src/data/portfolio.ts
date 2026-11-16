@@ -117,7 +117,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 'p1',
+    id: 'p2',
     folder: 'web',
     title: 'LGU Reports Monitoring System',
     dates: 'February 2025 - April 2025',
@@ -139,7 +139,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 'p2',
+    id: 'p3',
     folder: 'design',
     title: 'Frost & Flour Cake Co.',
     dates: 'October 2023 - November 2023',

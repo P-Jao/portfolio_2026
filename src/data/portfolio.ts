@@ -83,6 +83,42 @@ export const projects: Project[] = [
   {
     id: 'p1',
     folder: 'web',
+    title: 'Matabungkay Beach Hotel Management and Reservation System',
+    dates: 'May 2023 - December 2023',
+    summary:
+      "The system is a web-based platform designed to streamline the hotel's reservation process, guest management, and daily operational activities. It consists of two main components: a customer-facing website and an administrative management system. The system serves as a centralized platform that connects customer reservations with the hotel's internal management processes, helping improve reservation handling, pricing management, payment tracking, and operational efficiency.",
+    highlights: [
+      'Customer Website: Presents hotel information and provides online reservation access.',
+      'Reservation Management: Handles online and manually created bookings, modifications, cancellations, and room transfers.',
+      'Guest Management: Maintains guest profiles and reservation records.',
+      'Room Management: Manages accommodation details, room assignments, availability, and rates.',
+      'Payment Management: Records and monitors guest payments and outstanding balances.',
+      'Promotions and Package Management: Creates promotional offers and packages with configurable rates.',
+      'Reports and Analytics: Generates reports about reservations, payments, occupancy, and hotel activities.',
+    ],
+    role: 'Fullstack developer',
+    stack: ['Laravel', 'Vue', 'jQuery', 'Bootstrap', 'MySQL'],
+    live: 'https://matabungkaybeachhotel.com/',
+    source: null,
+    shots: [
+      { caption: 'Home page screen', path: '/images/projects/matabungkay_home_screen.png' },
+      {
+        caption: 'Room types section',
+        path: '/images/projects/matabungkay_room_type_carousel.png',
+      },
+      { caption: 'Events section', path: '/images/projects/matabungkay_events_section.png' },
+      {
+        caption: 'Day tour information section',
+        path: '/images/projects/matabungkay_day_tour_section.png',
+      },
+      { caption: 'Booking page', path: '/images/projects/matabungkay_booking_page.png' },
+      { caption: 'Guest information page', path: '/images/projects/matabungkay_guest_page.png' },
+      { caption: 'Packages section', path: '/images/projects/matabungkay_packages_section.png' },
+    ],
+  },
+  {
+    id: 'p1',
+    folder: 'web',
     title: 'LGU Reports Monitoring System',
     dates: 'February 2025 - April 2025',
     summary:

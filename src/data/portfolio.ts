@@ -274,13 +274,13 @@ const skillDefinitions: SkillDefinition[] = [
     tail: ['}', ''],
     format: (key: string, value: string) => `  ${key}: '${value}',`,
     items: [
-      ['framework', 'Vue, Nuxt'],
+      ['basic', 'HTML, CSS, Javascript'],
+      ['styling', 'Tailwind CSS, Bootstrap'],
       ['library', 'React, jQuery, Inertia.js'],
+      ['framework', 'Vue, Nuxt, Next.js'],
       ['language', 'TypeScript'],
       ['state', 'Pinia, Vuex'],
       ['build', 'Vite'],
-      ['basic', 'HTML, CSS, Javascript'],
-      ['styling', 'Tailwind CSS, Bootstrap'],
       ['design', 'Figma'],
     ],
   },
@@ -295,7 +295,8 @@ const skillDefinitions: SkillDefinition[] = [
     items: [
       ['framework', 'Laravel, CodeIgniter, Yii'],
       ['language', 'PHP, Python'],
-      ['runtime', 'Node.js'],
+      ['test', 'PHPUnit'],
+      ['architecture', 'REST API'],
       ['design_pattern', 'MVC, Observer, Repository'],
     ],
   },
@@ -324,7 +325,7 @@ const skillDefinitions: SkillDefinition[] = [
     items: [
       ['VERSION_CONTROL', 'Git'],
       ['CONTAINER', 'Docker'],
-      ['AUTOMATION', 'CI/CD, GitHub Actions, Shell Scripting, AI Agents'],
+      ['AUTOMATION', 'CI/CD, GitHub Actions, Shell Scripting, AI Agents, Claude Code'],
       ['OS', 'Windows, Linux'],
     ],
   },
@@ -338,8 +339,10 @@ const skillDefinitions: SkillDefinition[] = [
     format: (key: string, value: string) => `  ${key}: '${value}'`,
     items: [
       ['provider', 'AWS'],
-      ['compute', 'EC2 (Linux VPS)'],
-      ['storage', 'S3 (file storage)'],
+      ['compute', 'AWS EC2'],
+      ['storage', 'AWS S3 (file storage)'],
+      ['shared_hosting', 'cPanel'],
+      ['web_server', 'Apache, Nginx'],
     ],
   },
   {
